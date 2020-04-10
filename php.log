@@ -1,0 +1,3831 @@
+[10-Apr-2020 16:45:18 Asia/Tokyo] PHP Notice:  Undefined variable: finishFlg in C:\xampp\htdocs\corona\index.php on line 246
+[10-Apr-2020 16:45:18 Asia/Tokyo] PHP Notice:  Undefined index: bossCount in C:\xampp\htdocs\corona\index.php on line 270
+[10-Apr-2020 16:46:45 Asia/Tokyo] PHP Notice:  Undefined index: bossCount in C:\xampp\htdocs\corona\index.php on line 271
+[10-Apr-2020 16:47:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 16:49:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 16:49:06 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\corona\index.php:77
+Stack trace:
+#0 C:\xampp\htdocs\corona\index.php(174): Cat::catRecovery()
+#1 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 77
+[10-Apr-2020 16:55:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 16:55:22 Asia/Tokyo] PHP Notice:  Undefined variable: defenseFlg in C:\xampp\htdocs\corona\index.php on line 101
+[10-Apr-2020 16:55:22 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Creature::attack(), 0 passed in C:\xampp\htdocs\corona\index.php on line 113 and exactly 1 expected in C:\xampp\htdocs\corona\index.php:48
+Stack trace:
+#0 C:\xampp\htdocs\corona\index.php(113): Creature->attack()
+#1 C:\xampp\htdocs\corona\index.php(176): Monster->attack(Object(Human))
+#2 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 48
+[10-Apr-2020 16:56:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 16:56:56 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Creature::attack(), 0 passed in C:\xampp\htdocs\corona\index.php on line 114 and exactly 1 expected in C:\xampp\htdocs\corona\index.php:48
+Stack trace:
+#0 C:\xampp\htdocs\corona\index.php(114): Creature->attack()
+#1 C:\xampp\htdocs\corona\index.php(177): Monster->attack(Object(Human))
+#2 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 48
+[10-Apr-2020 17:00:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:00:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:00:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:00:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:00:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:00:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:01:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:01:05 Asia/Tokyo] PHP Notice:  Undefined variable: magicAttackMin in C:\xampp\htdocs\corona\index.php on line 109
+[10-Apr-2020 17:01:05 Asia/Tokyo] PHP Notice:  Undefined variable: magicAttackMax in C:\xampp\htdocs\corona\index.php on line 109
+[10-Apr-2020 17:04:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:04:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:06:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:09:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:09:03 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:09:03 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function attack() on null in C:\xampp\htdocs\corona\index.php:174
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:09:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:09:57 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:09:57 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function attack() on null in C:\xampp\htdocs\corona\index.php:174
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:10:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:10:04 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:10:04 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function attack() on null in C:\xampp\htdocs\corona\index.php:174
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 174
+[10-Apr-2020 17:10:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:10:21 Asia/Tokyo] PHP Notice:  Undefined index: catRecoveryMsg in C:\xampp\htdocs\corona\index.php on line 268
+[10-Apr-2020 17:11:43 Asia/Tokyo] PHP Notice:  Undefined index: catRecoveryMsg in C:\xampp\htdocs\corona\index.php on line 269
+[10-Apr-2020 17:11:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:11:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:12:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:12:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:12:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:12:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:12:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:15:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:15:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:15:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:15:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:16:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:18:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:19:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:20:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:20:16 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 175
+[10-Apr-2020 17:20:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function attack() on null in C:\xampp\htdocs\corona\index.php:175
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 175
+[10-Apr-2020 17:20:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:20:50 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 175
+[10-Apr-2020 17:20:50 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function attack() on null in C:\xampp\htdocs\corona\index.php:175
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 175
+[10-Apr-2020 17:20:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:21:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:22:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:22:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:22:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:22:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:22:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:23:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:24:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:25:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:26:31 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 190
+[10-Apr-2020 17:26:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:190
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 190
+[10-Apr-2020 17:29:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:29:23 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 193
+[10-Apr-2020 17:29:23 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:193
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 193
+[10-Apr-2020 17:29:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:29:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:29:38 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 193
+[10-Apr-2020 17:29:38 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:193
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 193
+[10-Apr-2020 17:30:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:34 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:34 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:194
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:40 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:40 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:194
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:45 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:194
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:30:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:30:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:24 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:31:24 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:194
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:31:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:31:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:32:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:33:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:33:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:33:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:33:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:33:05 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:33:05 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:194
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 194
+[10-Apr-2020 17:33:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:39:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:13 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 199
+[10-Apr-2020 17:40:13 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:199
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 199
+[10-Apr-2020 17:40:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:40:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:41 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 200
+[10-Apr-2020 17:42:41 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:200
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 200
+[10-Apr-2020 17:42:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:42:44 Asia/Tokyo] PHP Notice:  Undefined index: human in C:\xampp\htdocs\corona\index.php on line 200
+[10-Apr-2020 17:42:44 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in C:\xampp\htdocs\corona\index.php:200
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\corona\index.php on line 200
+[10-Apr-2020 17:42:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:43:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:20 Asia/Tokyo] ゲームスタート
+[10-Apr-2020 17:48:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:22 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:22 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:23 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:23 Asia/Tokyo] コロナの手下を倒した
+[10-Apr-2020 17:48:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:24 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:24 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:26 Asia/Tokyo] コロナの兵隊を倒した
+[10-Apr-2020 17:48:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:27 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:29 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:29 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:29 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:30 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:30 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:31 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:31 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:32 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:32 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:33 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:33 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:33 Asia/Tokyo] コロナの幹部を倒した
+[10-Apr-2020 17:48:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:37 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:38 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:39 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:40 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:40 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:41 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:42 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:43 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:43 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:45 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:46 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:46 Asia/Tokyo] コロナの側近を倒した
+[10-Apr-2020 17:48:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:48 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:49 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:51 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:51 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:52 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:54 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:48:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:55 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:56 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:57 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:48:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:48:58 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:49:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:00 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:49:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:01 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:02 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:03 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:04 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:04 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:05 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:06 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:07 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:08 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:09 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:10 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:10 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:11 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:12 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:13 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:16 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:49:16 Asia/Tokyo] ゆうしゃは力尽きた
+[10-Apr-2020 17:49:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:18 Asia/Tokyo] ゲームスタート
+[10-Apr-2020 17:49:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:49:23 Asia/Tokyo] スタート画面に戻る
+[10-Apr-2020 17:50:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:38 Asia/Tokyo] ゲームスタート
+[10-Apr-2020 17:50:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:45 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:46 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:55 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:55 Asia/Tokyo] コロナの手下を倒した
+[10-Apr-2020 17:50:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:56 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:56 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:57 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:50:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:50:57 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:00 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:00 Asia/Tokyo] コロナの兵隊を倒した
+[10-Apr-2020 17:51:01 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:01 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:01 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:02 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:03 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:04 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:04 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:04 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:05 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:06 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:06 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:06 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:06 Asia/Tokyo] コロナの幹部を倒した
+[10-Apr-2020 17:51:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:06 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:07 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:07 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:07 Asia/Tokyo] ゆうしゃは力尽きた
+[10-Apr-2020 17:51:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:14 Asia/Tokyo] ゲームスタート
+[10-Apr-2020 17:51:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:16 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:17 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:17 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:18 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:18 Asia/Tokyo] コロナの手下を倒した
+[10-Apr-2020 17:51:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:18 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:19 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:19 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:19 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:20 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:20 Asia/Tokyo] コロナの兵隊を倒した
+[10-Apr-2020 17:51:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:21 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:21 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:21 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:22 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:22 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:22 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:23 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:23 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:23 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:24 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:24 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:25 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:25 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:25 Asia/Tokyo] コロナの幹部を倒した
+[10-Apr-2020 17:51:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:25 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:26 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:27 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:27 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:27 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:27 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:27 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:29 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:29 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:29 Asia/Tokyo] コロナの側近を倒した
+[10-Apr-2020 17:51:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:30 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:31 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:32 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:33 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:33 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:35 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:36 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:37 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:39 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:40 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:41 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:42 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:43 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:44 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:45 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:46 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:47 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:47 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:48 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:49 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:50 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:50 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:51 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:51 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:52 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:52 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:53 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:51:54 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:54 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:54 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:51:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:55 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:56 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:56 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:51:59 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:51:59 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:02 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:03 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:03 Asia/Tokyo] ゆうしゃは力尽きた
+[10-Apr-2020 17:52:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:06 Asia/Tokyo] ゲームスタート
+[10-Apr-2020 17:52:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:08 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:08 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:08 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:52:08 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:08 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] コロナの手下を倒した
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:09 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:09 Asia/Tokyo] コロナの兵隊を倒した
+[10-Apr-2020 17:52:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:11 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:11 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:12 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:14 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:15 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:16 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:16 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:20 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:20 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:20 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:52:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:21 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:22 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:24 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:24 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:26 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:26 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:26 Asia/Tokyo] コロナの幹部を倒した
+[10-Apr-2020 17:52:28 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:28 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:29 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:29 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:30 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:30 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:31 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:31 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:32 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:32 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:33 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:33 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:34 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:34 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:35 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:35 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:36 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:36 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:37 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:37 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:38 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:38 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:39 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:39 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:39 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:40 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:40 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:40 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:52:41 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:41 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:42 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:42 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:43 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:43 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:45 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:45 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:46 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:46 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:48 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:48 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:49 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:49 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:51 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:51 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:51 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:52:52 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:52 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:52 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:52:53 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:53 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:55 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:55 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:55 Asia/Tokyo] コロナの側近を倒した
+[10-Apr-2020 17:52:57 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:57 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:52:58 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:52:58 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:52:58 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:53:00 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:00 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:02 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:02 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:03 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:03 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:05 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:05 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:06 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:06 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:07 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:07 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:09 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:09 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:09 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:11 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:11 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:12 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:12 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:13 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:13 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:14 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:14 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:15 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:15 Asia/Tokyo] ぼうぎょを選択
+[10-Apr-2020 17:53:15 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:53:17 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:17 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:18 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:18 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:18 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:53:19 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:19 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:19 Asia/Tokyo] ねこが回復させた
+[10-Apr-2020 17:53:21 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:21 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:22 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:22 Asia/Tokyo] こうげきを選択
+[10-Apr-2020 17:53:22 Asia/Tokyo] キングコロナを倒した
+[10-Apr-2020 17:53:25 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:25 Asia/Tokyo] スタート画面に戻る
+[10-Apr-2020 17:53:44 Asia/Tokyo] POSTされた！
+[10-Apr-2020 17:53:44 Asia/Tokyo] ゲームスタート
+[11-Apr-2020 04:44:52 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:44:52 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:44:53 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:44:53 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:47 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:47 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:47 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:47 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:48 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:48 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:49 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:49 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:49 Asia/Tokyo] コロナの手下を倒した
+[11-Apr-2020 04:45:50 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:50 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:51 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:51 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:53 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:53 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:54 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:54 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:54 Asia/Tokyo] コロナの兵隊を倒した
+[11-Apr-2020 04:45:55 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:55 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:45:56 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:45:56 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:46:59 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:46:59 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:46:59 Asia/Tokyo] ゆうしゃは力尽きた
+[11-Apr-2020 04:47:01 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:01 Asia/Tokyo] ゲームスタート
+[11-Apr-2020 04:47:01 Asia/Tokyo] Array
+(
+    [start] => ゲームスタート
+)
+
+[11-Apr-2020 04:47:03 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:03 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:03 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:47:03 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:03 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:03 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:47:05 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:05 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:05 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:47:06 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:06 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:06 Asia/Tokyo] コロナの手下を倒した
+[11-Apr-2020 04:47:06 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:47:06 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:06 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:06 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:47:28 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:28 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:47:28 Asia/Tokyo] Array
+(
+    [defense] => ぼうぎょ
+)
+
+[11-Apr-2020 04:47:29 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:29 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:47:29 Asia/Tokyo] Array
+(
+    [defense] => ぼうぎょ
+)
+
+[11-Apr-2020 04:47:48 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:47:48 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:47:48 Asia/Tokyo] Array
+(
+    [attack] => たたかう
+)
+
+[11-Apr-2020 04:49:32 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 420
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 55のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 290
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => ミス!<br>0のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:32 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:32 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:33 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 380
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 40のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 175
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 115のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:33 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:33 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:33 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 330
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 50のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 75
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 100のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:33 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:33 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:33 Asia/Tokyo] コロナの兵隊を倒した
+[11-Apr-2020 04:49:35 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 275
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 55のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 500
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:49:35 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:35 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:35 Asia/Tokyo] ねこが回復させた
+[11-Apr-2020 04:49:36 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 勇者を400回復した!
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 600
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>6のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 500
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:49:36 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:36 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:37 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 540
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 60のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 396
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 104のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:37 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:37 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:37 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 443
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => かいしんのいちげき!<br>97のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 234
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => かいしんのいちげき!<br>162のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:37 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:37 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:39 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 443
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ミス!<br>0のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 154
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 80のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:39 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:39 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:40 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 367
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 76のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 27
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => かいしんのいちげき!<br>127のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:40 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:40 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:41 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 361
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>6のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 27
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => かいしんのいちげき!<br>127のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:41 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:41 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:41 Asia/Tokyo] ねこが回復させた
+[11-Apr-2020 04:49:42 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 勇者を400回復した!
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 600
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>7のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 27
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => かいしんのいちげき!<br>127のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:42 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:42 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:42 Asia/Tokyo] コロナの幹部を倒した
+[11-Apr-2020 04:49:44 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 514
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 魔法攻撃をうけた!<br>86のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 700
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:49:44 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:44 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:46 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 366
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => かいしんのいちげき!<br>148のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 609
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 91のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:46 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:46 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:47 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 279
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 87のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 489
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 120のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:47 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:47 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:48 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 182
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 97のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 389
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 100のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:48 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:48 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:49 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 81
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 魔法攻撃をうけた!<br>101のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:49 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:49 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:50 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 72
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>9のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:50 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:50 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:50 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 64
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>8のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:50 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:50 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:51 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 56
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>8のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:51 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:51 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:52 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 46
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:52 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:52 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:53 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 37
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>9のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:53 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:53 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:54 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 29
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>8のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:54 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:54 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:56 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 20
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>9のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:56 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:56 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:49:56 Asia/Tokyo] ねこが回復させた
+[11-Apr-2020 04:49:57 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 勇者を400回復した!
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 412
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>8のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 284
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 105のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:57 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:58 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:58 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 311
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 魔法攻撃をうけた!<br>101のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 208
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 76のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:58 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:58 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:49:59 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 227
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 84のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 129
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 79のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:49:59 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:49:59 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:50:03 Asia/Tokyo] Array
+(
+    [monsterCount] => 3
+    [bossCount] => 1
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 227
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ミス!<br>0のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 90
+            [magicAttackMax:protected] => 110
+            [name:protected] => コロナの側近
+            [img:protected] => img/enemy4.png
+            [hp:protected] => 38
+            [hpMax:protected] => 700
+            [attackMin:protected] => 80
+            [attackMax:protected] => 100
+            [battleMsg:protected] => 91のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:03 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:03 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:50:03 Asia/Tokyo] コロナの側近を倒した
+[11-Apr-2020 04:50:05 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 134
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 93のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:05 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:05 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:06 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 123
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:06 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:06 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:07 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 112
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:07 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:07 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:07 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 102
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:07 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:07 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:08 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 92
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:08 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:08 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:09 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 82
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:09 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:09 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:10 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 71
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:10 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:10 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:10 Asia/Tokyo] ねこが回復させた
+[11-Apr-2020 04:50:12 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 勇者を400回復した!
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 460
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 900
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:50:12 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:12 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:50:13 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 460
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ミス!<br>0のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 826
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 74のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:13 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:13 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:50:14 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 344
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 116のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 744
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 82のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:14 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:14 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:50:16 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 344
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ミス!<br>0のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:16 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:16 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:17 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 334
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:17 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:17 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:17 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 323
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:17 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:17 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:18 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 313
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:19 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:19 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:19 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 303
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:19 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:20 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:20 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 292
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:20 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:20 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:21 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 281
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:21 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:21 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:22 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 270
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:22 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:22 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:23 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 259
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:23 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:23 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:24 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 248
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:24 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:24 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:25 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 238
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:25 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:25 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:26 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 228
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:26 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:26 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:27 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 217
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:27 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:27 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:28 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 206
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:28 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:28 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:28 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 196
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:28 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:28 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:29 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 186
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:29 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:29 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:30 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 176
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:30 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:30 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:31 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 165
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:31 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:31 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:31 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 155
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:32 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:32 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:32 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 145
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:32 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:32 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:33 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 134
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:33 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:33 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:34 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 123
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:34 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:34 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:34 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 113
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:34 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:34 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:35 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 101
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>12のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:35 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:35 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:36 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 91
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>10のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:36 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:36 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:37 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 79
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>12のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:37 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:37 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:37 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 68
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:37 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:37 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:38 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 57
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:38 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:38 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:39 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 46
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:39 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:39 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:39 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 35
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:39 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:39 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:40 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 24
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:40 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:40 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:41 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 13
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:41 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:41 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:42 Asia/Tokyo] Array
+(
+    [monsterCount] => 4
+    [bossCount] => 0
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 2
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => ぼうぎょした!<br>11のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 110
+            [magicAttackMax:protected] => 130
+            [name:protected] => キングコロナ
+            [img:protected] => img/enemy5.png
+            [hp:protected] => 625
+            [hpMax:protected] => 900
+            [attackMin:protected] => 100
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 119のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:50:42 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:42 Asia/Tokyo] ぼうぎょを選択
+[11-Apr-2020 04:50:42 Asia/Tokyo] ゆうしゃは力尽きた
+[11-Apr-2020 04:50:42 Asia/Tokyo] Array
+(
+)
+
+[11-Apr-2020 04:50:44 Asia/Tokyo] Array
+(
+)
+
+[11-Apr-2020 04:50:44 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:50:44 Asia/Tokyo] ゲームスタート
+[11-Apr-2020 04:51:51 Asia/Tokyo] Array
+(
+    [monsterCount] => 0
+    [bossCount] => 4
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 600
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 30
+            [magicAttackMax:protected] => 50
+            [name:protected] => コロナの手下
+            [img:protected] => img/enemy1.png
+            [hp:protected] => 300
+            [hpMax:protected] => 300
+            [attackMin:protected] => 20
+            [attackMax:protected] => 40
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:51:51 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:51 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:52 Asia/Tokyo] Array
+(
+    [monsterCount] => 0
+    [bossCount] => 4
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 562
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 38のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 30
+            [magicAttackMax:protected] => 50
+            [name:protected] => コロナの手下
+            [img:protected] => img/enemy1.png
+            [hp:protected] => 206
+            [hpMax:protected] => 300
+            [attackMin:protected] => 20
+            [attackMax:protected] => 40
+            [battleMsg:protected] => 94のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:52 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:52 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:54 Asia/Tokyo] Array
+(
+    [monsterCount] => 0
+    [bossCount] => 4
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 524
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 38のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 30
+            [magicAttackMax:protected] => 50
+            [name:protected] => コロナの手下
+            [img:protected] => img/enemy1.png
+            [hp:protected] => 106
+            [hpMax:protected] => 300
+            [attackMin:protected] => 20
+            [attackMax:protected] => 40
+            [battleMsg:protected] => 100のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:54 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:54 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:54 Asia/Tokyo] コロナの手下を倒した
+[11-Apr-2020 04:51:55 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 487
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 37のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 400
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:51:55 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:55 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:56 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 428
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 59のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 293
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 107のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:56 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:56 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:57 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 379
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 49のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 210
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 83のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:57 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:57 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:58 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 320
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 59のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 121
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 89のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:58 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:58 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:59 Asia/Tokyo] Array
+(
+    [monsterCount] => 1
+    [bossCount] => 3
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 270
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 50のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 50
+            [magicAttackMax:protected] => 70
+            [name:protected] => コロナの兵隊
+            [img:protected] => img/enemy2.png
+            [hp:protected] => 3
+            [hpMax:protected] => 400
+            [attackMin:protected] => 40
+            [attackMax:protected] => 60
+            [battleMsg:protected] => 118のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:51:59 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:51:59 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:51:59 Asia/Tokyo] コロナの兵隊を倒した
+[11-Apr-2020 04:52:01 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 206
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 魔法攻撃をうけた!<br>64のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 500
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 
+        )
+
+)
+
+[11-Apr-2020 04:52:01 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:52:01 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:58:41 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 116
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 魔法攻撃をうけた!<br>90のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 332
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => かいしんのいちげき!<br>168のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:58:41 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:58:41 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:58:43 Asia/Tokyo] Array
+(
+    [monsterCount] => 2
+    [bossCount] => 2
+    [catRecoveryMsg] => 
+    [human] => Human Object
+        (
+            [name:protected] => ゆうしゃ
+            [img:protected] => img/human.png
+            [hp:protected] => 47
+            [hpMax:protected] => 600
+            [attackMin:protected] => 70
+            [attackMax:protected] => 120
+            [battleMsg:protected] => 69のダメージ!!<br>
+        )
+
+    [monster] => Monster Object
+        (
+            [magicAttackMin:protected] => 70
+            [magicAttackMax:protected] => 90
+            [name:protected] => コロナの幹部
+            [img:protected] => img/enemy3.png
+            [hp:protected] => 221
+            [hpMax:protected] => 500
+            [attackMin:protected] => 60
+            [attackMax:protected] => 80
+            [battleMsg:protected] => 111のダメージ!!<br>
+        )
+
+)
+
+[11-Apr-2020 04:58:43 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:58:43 Asia/Tokyo] こうげきを選択
+[11-Apr-2020 04:58:43 Asia/Tokyo] ゆうしゃは力尽きた
+[11-Apr-2020 04:58:43 Asia/Tokyo] Array
+(
+)
+
+[11-Apr-2020 04:58:45 Asia/Tokyo] Array
+(
+)
+
+[11-Apr-2020 04:58:45 Asia/Tokyo] POSTされた！
+[11-Apr-2020 04:58:45 Asia/Tokyo] ゲームスタート
