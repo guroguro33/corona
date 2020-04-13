@@ -267,6 +267,13 @@ if(!empty($_POST)){
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="オブジェクト指向部アウトプット">
     <meta name="keywords" content="">
+    <!-- Twitterカード -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@guroguro33" />
+    <meta property="og:url" content="https://kurosuke-web.com/ff-battle/" />
+    <meta property="og:title" content="ウイルスをやっつけろ！" />
+    <meta property="og:description" content="F〇風バトルゲーム（phpオブジェクト指向部アウトプット）" />
+    <meta property="og:image" content="https://kurosuke-web.com/ff-battle/sample.jpg" />
     <!-- ファビコン -->
     <link rel="shortcut icon" href="./img/favicon.ico">
     <!-- スマホ用アイコン -->
