@@ -3,7 +3,7 @@
 ini_set('log_errors', 'on'); //ログを取る
 ini_set('error_log', 'php.log'); //ログの出力ファイル指定
 session_start();
-error_log(print_r($_SESSION,true));
+// error_log(print_r($_SESSION,true));
 
 // モンスター格納用
 $monsters = array();
@@ -38,7 +38,7 @@ abstract class Creature{
     return $this->hpMax;
   }
   public function setBattleMsg($str){
-    $this->battleMsg .= $str.'<br>';
+    $this->battleMsg .= $str.'\n';
   }
   public function getBattleMsg(){
     return $this->battleMsg;
@@ -92,17 +92,22 @@ class Cat extends Creature{
 
 // モンスタークラス
 class Monster extends Creature{
+  protected $bg;
   protected $magicAttackMin;
   protected $magicAttackMax;
-  public function __construct($name, $img, $hp, $hpMax, $attackMin, $attackMax, $magicAttackMin, $magicAttackMax){
+  public function __construct($name, $img, $hp, $hpMax, $attackMin, $attackMax, $bg, $magicAttackMin, $magicAttackMax){
     $this->name = $name;
     $this->img = $img;
     $this->hp = $hp;
     $this->hpMax = $hpMax;
     $this->attackMin = $attackMin;
     $this->attackMax = $attackMax;
+    $this->bg = $bg;
     $this->magicAttackMin = $magicAttackMin;
     $this->magicAttackMax = $magicAttackMax;
+  }
+  public function getBg(){
+    return $this->bg;
   }
   public function attack($targetObj){
     global $defenseFlg;
@@ -116,7 +121,7 @@ class Monster extends Creature{
       if(!mt_rand(0,4)){ //5分の1の確率で魔法攻撃
         $magicAttackPoint = (int)mt_rand($this->magicAttackMin, $this->magicAttackMax);
         $targetObj->setHp($targetObj->getHp() - $magicAttackPoint);
-        $targetObj->setBattleMsg('魔法攻撃をうけた!');
+        $targetObj->setBattleMsg('ウイルスをあびた!');
         $targetObj->setBattleMsg($magicAttackPoint.'のダメージ!!');
       }else{
         parent::attack($targetObj);
@@ -125,11 +130,11 @@ class Monster extends Creature{
   }
 }
 // トップメッセージのクラス
-class topMsg{
+class TopMsg{
   public static function set($str){
-    if(!empty($_SESSION['topMsg'])) $_SESSION['topMsg'] = '';
+    if(empty($_SESSION['topMsg'])) $_SESSION['topMsg'] = '';
     //メッセージをセッションに格納
-    $_SESSION['topMsg'] = $str;
+    $_SESSION['topMsg'] .= $str.'<br>';
   }
   public static function clear(){
     unset($_SESSION['topMsg']);
@@ -137,12 +142,12 @@ class topMsg{
 }
  
 // インスタンス生成
-$human = new Human('ゆうしゃ', 'img/human.png', 600, 600, 70, 120);
-$monsters[] = new Monster('コロナの手下', 'img/enemy1.png' , 300, 300, 20, 40, 30, 50);
-$monsters[] = new Monster('コロナの兵隊', 'img/enemy2.png' , 400, 400, 40, 60, 50, 70);
-$monsters[] = new Monster('コロナの幹部', 'img/enemy3.png' , 500, 500, 60, 80, 70, 90);
-$monsters[] = new Monster('コロナの側近', 'img/enemy4.png' , 700, 700, 80, 100, 90, 110);
-$monsters[] = new Monster('キングコロナ', 'img/enemy5.png' , 900, 900, 100, 120, 110, 130);
+$human = new Human('ゆうしゃ', 'img/human.png', 700, 700, 80, 120);
+$monsters[] = new Monster('かぜウイルス', 'img/enemy1.png' , 300, 300, 20, 40, './img/battlebg1.jpg' ,30, 50);
+$monsters[] = new Monster('インフルエンザウイルス', 'img/enemy2.png' , 400, 400, 40, 60, './img/battlebg2.jpg', 50, 70);
+$monsters[] = new Monster('ノロウイルス', 'img/enemy3.png' , 500, 500, 60, 80, './img/battlebg3.jpg', 70, 90);
+$monsters[] = new Monster('SARSウイルス', 'img/enemy4.png' , 700, 700, 80, 100, './img/battlebg4.jpg', 90, 110);
+$monsters[] = new Monster('コロナウイルス', 'img/enemy5.png' , 900, 900, 100, 120, './img/battlebg5.jpg', 110, 130);
 
 
 // 関数
@@ -153,11 +158,14 @@ function createHuman(){
 function createMonster(){
   global $monsters;
   $_SESSION['monster'] = $monsters[$_SESSION['monsterCount']];
+  TopMsg::set($_SESSION['monster']->getName().'が　あらわれた！');
 }
 function init(){
   $_SESSION['monsterCount'] = 0;
   $_SESSION['bossCount'] = 4;
   $_SESSION['catRecoveryMsg'] = '';
+  $_SESSION['fadeInFlg'] = true;
+  TopMsg::clear();
   createHuman();
   createMonster();
 }
@@ -192,13 +200,24 @@ if(!empty($_POST)){
       Cat::catRecovery();
       // モンスターの攻撃
       $_SESSION['monster']->attack($_SESSION['human']);
+      // topメッセージの消去
+      if(!empty($_SESSION['topMsg'])){
+        TopMsg::clear();
+      }
+      $_SESSION['fadeInFlg'] = false;
     }
     if($defenseFlg){ //防御する場合
       error_log('ぼうぎょを選択');
       //モンスターの攻撃
       $_SESSION['monster']->attack($_SESSION['human']);
+      $_SESSION['monster']->clearBattleMsg();
       // ねこが回復
       Cat::catRecovery();
+      // topメッセージの消去
+      if(!empty($_SESSION['topMsg'])){
+        TopMsg::clear();
+      }
+      $_SESSION['fadeInFlg'] = false;
     }
     if($resetFlg){ //さいしょからを選んだ場合
       error_log('さいしょからを選択');
@@ -215,9 +234,16 @@ if(!empty($_POST)){
       if($_SESSION['monster']->getHp() <= 0 && $_SESSION['monsterCount'] < 4){
         //敵のHPが0以下かつ4番目までの敵だった場合、次の敵へ
         error_log($_SESSION['monster']->getName().'を倒した');
+        TopMsg::clear();
+        TopMsg::set($_SESSION['monster']->getName().'をたおした！');
+        //倒した敵の数をカウント
         $_SESSION['bossCount'] -= 1;
         $_SESSION['monsterCount'] += 1;
+        //新しい敵を出現
         createMonster();
+        //新しい敵をフェードインさせるフラグをたてる
+        $_SESSION['fadeInFlg'] = true;
+        // error_log(print_r($_SESSION,true));
       }else{
         //敵のHPが0以下かつ5番目（ラスボス）だった場合、エンディングへ
         if($_SESSION['monster']->getHp() <= 0 && $_SESSION['monsterCount'] == 4){
@@ -242,7 +268,7 @@ if(!empty($_POST)){
     <meta name="description" content="オブジェクト指向部アウトプット">
     <meta name="keywords" content="">
     <!-- ファビコン -->
-    <link rel="shortcut icon" href="./img/favicon.ico.ico">
+    <link rel="shortcut icon" href="./img/favicon.ico">
     <!-- スマホ用アイコン -->
     <link rel="apple-touch-icon" sizes="152x152" href="./img/apple-touch-icon.png">
     <!-- font awesome -->
@@ -251,49 +277,61 @@ if(!empty($_POST)){
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css">
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
-		<!-- javascript -->
-		<script src="js/script.js" defer></script>
-		
-    <title>人類VSコロナ</title>
+    <title>ウイルスをやっつけろ！</title>
+    <style>
+      body{
+         background-image: url("<?php echo (!empty($_SESSION['monster'])) ? $_SESSION['monster']->getBg() : './img/opbg.jpg'; ?>");
+      }
+      <?php if(!empty($_SESSION['fadeInFlg'])) : ?>
+        <?php if($_SESSION['fadeInFlg'] === true) : ?>
+          .enemy img{
+            animation: fadeIn 3s ease 0s 1 normal;
+          }
+          @keyframes fadeIn{
+            0% {opacity:0}
+            100% {opacity:1}
+          }
+        <?php endif; ?>
+      <?php endif; ?>
+    </style>
 </head>
-<body>
+<body onload="message_char1()">
   <?php if(empty($_SESSION)): ?>
     <main class="main wrap">
-      <h1>人類VSコロナ</h1>
-      <h2>～未確認生命体コロナの野望～</h2>
+      <h1>ウイルスをやっつけろ！</h1>
+      <h2>～F〇風バトルゲーム～</h2>
       <form action="" method="post">
         <input type="submit" class="start btn" name="start" value="ゲームスタート">
       </form>
       <p class="play-rule">
         【あそびかた】<br>
-        未確認生命体コロナとその手下を倒せ<br>
         たたかう　か　ぼうぎょ　をタップ!<br>
-        時々ねこが回復してくれるかも!?<br>
+        ときどき、かいふくしてくれます<br>
       </p>
-      <p class="img-offer">素材提供元　ぴぽや  <a href="https://pipoya.net/">https://pipoya.net/</a></p>
+      <p class="img-offer">素材提供元　ぴぽや  <a href="https://pipoya.net/" target="_blank" rel="noopener noreferrer">https://pipoya.net/</a></p>
     </main>
   <?php elseif(!empty($_SESSION) && !($finishFlg)): ?>
     <main class="main wrap">
-      <div class="msg window">
-        <?php echo $_SESSION['monster']->getName().'が　あらわれた！'; ?>
+      <div class="msg">
+        <p class="window" id="msg-window">
+          <?php echo (!empty($_SESSION['topMsg']))? $_SESSION['topMsg'] : ""; ?>
+        </p>
       </div>
       <section class="char">
         <div class="enemy">
           <img src="<?php echo $_SESSION['monster']->getImg(); ?>" alt="<?php echo $_SESSION['monster']->getName(); ?>">
-          <p class="msg-damage">
-            <?php echo $_SESSION['monster']->getBattleMsg(); ?>
+          <p class="msg-damage" id="enemy-damage">
+            <?php // echo $_SESSION['monster']->getBattleMsg(); ?>
           </p>
         </div>
         <div class="fighter">
           <img src="<?php echo $_SESSION['human']->getImg(); ?>" alt="<?php echo $_SESSION['human']->getName(); ?>">
-          <p class="msg-damage">
-            <?php echo $_SESSION['human']->getBattleMsg(); ?>
+          <p class="msg-damage" id="fighter-damage">
+            <?php // echo $_SESSION['human']->getBattleMsg(); ?>
           </p>
           <img src="./img/cat.png" alt="ねこ">
-          <p class="msg-damage">
-            <?php echo $_SESSION['catRecoveryMsg']; ?>
+          <p class="msg-damage" id="cat-recovery">
+            <?php // echo $_SESSION['catRecoveryMsg']; ?>
           </p>
         </div>
       </section>
@@ -319,14 +357,14 @@ if(!empty($_POST)){
           <form class="cmd-wrap" action="" method="post">
             <input type="submit" class="cmd-btn window" name="attack" value="たたかう">
             <input type="submit" class="cmd-btn window" name="defense" value="ぼうぎょ">
-            <input type="submit" class="cmd-btn window" name="reset" value="さいしょから">
+            <input type="submit" class="cmd-btn window" name="reset" value="はじめから">
           </form>
       </section>
     </main>
   <?php else: ?>
     <main class="main wrap">
       <h1>ゲームクリア</h1>
-      <p class="lastMsg">まおうコロナ　は　しょうめつし</p>
+      <p class="lastMsg">コロナウイルス　は　しょうめつし</p>
       <p class="lastMsg">じんるい　は　へいわを</p>
       <p class="lastMsg">とりもどした</p>
       <form action="" method="post">
@@ -334,5 +372,77 @@ if(!empty($_POST)){
       </form>
     </main>
   <?php endif; ?>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- javascript -->
+<script>
+  // TOPメッセージを1番下に
+  $(function(){
+    $('#msg-window').animate({
+      scrollTop: $('#msg-window')[0].scrollHeight
+    }, 3000);
+
+  });
+
+  // 流れるテキスト
+  var msg_buff1 = '<?php echo (!empty($_SESSION['monster']))? $_SESSION['monster']->getBattleMsg() : ''; ?>';
+  function message_char1()
+  {
+    if (msg_buff1 == '') {
+      //メッセージバッファに文字がなければ何もしない
+      message_char2();
+    }
+    //メッセージバッファの先頭1文字を取得
+    var c = msg_buff1.slice(0, 1)
+    if (c == "\n") {
+      c = '<br>';//改行の場合はタグへ変換
+    }
+    document.getElementById('enemy-damage').innerHTML += c;
+    //メッセージバッファから先頭1文字を削除
+    msg_buff1 = msg_buff1.slice(1);
+    //
+    setTimeout('message_char1()', 50);
+  }
+  
+  var msg_buff2 = '<?php echo (!empty($_SESSION['human']))? $_SESSION['human']->getBattleMsg() : ''; ?>';
+  function message_char2()
+  {
+    if (msg_buff2 == '') {
+      //メッセージバッファに文字がなければ何もしない
+      message_char3();
+    }
+    //メッセージバッファの先頭1文字を取得
+    var c = msg_buff2.slice(0, 1)
+    if (c == "\n") {
+      c = '<br>';//改行の場合はタグへ変換
+    }
+    document.getElementById('fighter-damage').innerHTML += c;
+    //メッセージバッファから先頭1文字を削除
+    msg_buff2 = msg_buff2.slice(1);
+    //
+    setTimeout('message_char2()', 800);
+  }
+
+  var msg_buff3 = '<?php echo (!empty($_SESSION['catRecoveryMsg']))?  $_SESSION['catRecoveryMsg'] : ''; ?>';
+  function message_char3()
+  {
+    if (msg_buff3 == '') {
+      //メッセージバッファに文字がなければ何もしない
+      return;
+    }
+    //メッセージバッファの先頭1文字を取得
+    var c = msg_buff3.slice(0, 1)
+    if (c == "\n") {
+      c = '<br>';//改行の場合はタグへ変換
+    }
+    document.getElementById('cat-recovery').innerHTML += c;
+    //メッセージバッファから先頭1文字を削除
+    msg_buff3 = msg_buff3.slice(1);
+    //
+    setTimeout('message_char3()', 800);
+  }
+  
+  
+</script>
 </body>
 </html>

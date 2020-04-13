@@ -25,8 +25,15 @@ body {
 //================================================
 $main-color: #0B3FE8;
 
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
 input{
   cursor: pointer;
+  -webkit-appearance: none;
 }
 .btn{
   padding: 10px 30px;
@@ -48,7 +55,7 @@ input{
 body{
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/battlebg1.jpg");
+  // background-image: url("../img/battlebg2.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,25 +68,29 @@ main{
   top: 50%;
   left: 50%;
   padding: 5px;
-  min-width: 375px;
+  // min-width: 375px;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
   transform: translateY(-50%) translateX(-50%);
 
 }
 h1{
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 36px;
   font-size: 24px;
   font-weight: bold;
 }
 h2{
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   font-size: 20px;
 }
 .start{
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  padding: 10px 30px;
 }
 .play-rule{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .img-offer{
   a{
@@ -92,34 +103,53 @@ h2{
 // バトル画面
 //================================================
 .msg{
-  margin-bottom: 120px;
-  padding: 12px 30px;
-  font-size: 18px;
+  height: 20%;
+  font-size: 17px;
+  .window{
+    padding: 8px 10px;
+    height: 2.8em;
+    overflow: hidden;
+    line-height: 1.8;
+  }
 }
 .char{
   display: flex;
+  height: 30%;
   justify-content: space-between;
   align-items: center;
-  img{
-    width: 70px;
-    height: auto;
+  .enemy{
+    width: 135px;
+    img{
+      width: 100px;
+      height: auto;
+    }
+  }
+  .fighter{
+    width: 115px;
+    img{
+      width: 55px;
+      height: auto;
+    }
   }
 }
 .msg-damage{
   height: 65px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .status{
-  margin-bottom: 46px;
   display: flex;
+  // margin-bottom: 46px;
+  height: 30%;
   justify-content: space-between;
   font-size: 14px;
   .status-enemy{
     padding: 20px 10px;
+    height: 80%;
     flex-grow: 1;
   }
   .status-fighter{
     padding: 20px 10px;
+    height: 80%;
     flex-grow: 2;
     .hero,
     .cat{
@@ -128,9 +158,14 @@ h2{
     }
   }
 }
+.cmd{
+  margin-bottom: 10px;
+  height: 20%;
+}
 .msg-cmd{
-  margin-bottom: 8px;
-  padding: 3px 70px;
+  margin: 0 auto 15px;
+  padding: 3px;
+  width: 80%;
   font-size: 14px;
 }
 .cmd-btn{
@@ -138,6 +173,9 @@ h2{
   height: 70px;
   font-size: 18px;
   color: #f2f2f2;
+  &:last-child{
+    font-size: 17px;
+  }
 }
 //================================================
 // クリア画面
