@@ -279,7 +279,7 @@ if(!empty($_POST)){
     <!-- スマホ用アイコン -->
     <link rel="apple-touch-icon" sizes="152x152" href="./img/apple-touch-icon.png">
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"> -->
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 		<!-- CSS -->
