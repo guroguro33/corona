@@ -6,7 +6,7 @@
 
 フルスクラッチのphpでオブジェクト指向の学習のため作成しました。
 
-[デモページ](https://kurosuke-web.com/yamagatabi/ff-battle/)
+[デモページ](https://kurosuke-web.com/ff-battle/)
 
 ## 画面イメージ ##
  
